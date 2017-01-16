@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.filipe.bibliotecaappandroid">
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Biblioteca - Fatec Zona Sul"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="MenuActivity"
+            android:label="Menu">
+        </activity>
+
+        <activity android:name=".AddLivroActivity"
+            android:label="Adicionar Livro">
+        </activity>
+
+        <activity android:name=".ConsultaLivroActivity"
+            android:label="Consultar Livro">
+        </activity>
+        <activity android:name=".DeletarLivroActivity"
+            android:label="Deletar Livro">
+        </activity>
+        <activity android:name=".AlterarLivroActivity"
+            android:label="Alterar Livro">
+        </activity>
+        <activity android:name=".AlterarLivroFormActivity"
+            android:label="Alterar Livro Formulario">
+        </activity>
+        <activity android:name=".EmprestimoLivroActivity"
+            android:label="Emprestimo Livro">
+        </activity>
+        <activity android:name=".ConEmprestimoLivroActivity"
+            android:label=".Emprestimo Livro">
+        </activity>
+
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

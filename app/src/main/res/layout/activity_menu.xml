@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="2dp"
+    android:layout_marginEnd="2dp"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:layout_marginStart="2dp"
+    android:layout_marginTop="2dp"
+    android:layout_margin="2dp"
+    android:paddingBottom="2dp"
+    android:padding="2dp"
+    android:paddingEnd="2dp"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingStart="2dp"
+    android:paddingTop="2dp"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="MENU PRINCIPAL"
+        android:id="@+id/textView4"
+        android:layout_marginTop="23dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADICIONAR LIVRO"
+        android:id="@+id/button_addlivro"
+        android:layout_gravity="center_horizontal"
+        android:elevation="2dp"
+        android:textColor="@android:color/white"
+        android:background="@color/buttonmenucolor"
+        android:layout_margin="5dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ALTERAR LIVRO"
+        android:id="@+id/button_alterarlivro"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:background="@color/buttonmenucolor"
+        android:layout_margin="5dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EXCLUIR LIVRO"
+        android:id="@+id/button_excluirlivro"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:background="@color/buttonmenucolor"
+        android:layout_margin="5dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONSULTAR LIVRO"
+        android:id="@+id/button_consultarlivro"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:background="@color/buttonmenucolor"
+
+        android:layout_margin="5dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EFETUAR EMPRESTIMO"
+        android:id="@+id/button_emprestimo"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:background="@color/buttonmenucolor"
+        android:layout_margin="5dp" />
+
+    <Button
+        android:layout_width="181dp"
+        android:layout_height="35dp"
+        android:text="CONSULTAR EMPRESTIMO"
+        android:id="@+id/button_conemprestimo"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:background="@color/buttonmenucolor"
+        android:layout_weight="0.01"
+        android:layout_margin="5dp" />
+
+</LinearLayout>
